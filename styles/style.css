@@ -23,6 +23,37 @@
     text-align: left;
     opacity: 0.7;
 }
+.skill-align{
+    margin: 0px 10px 0px 10px;
+    padding: 40px;
+    border-radius: 16px;
+}
+.skill-text-title{
+    font-weight: 800;
+    font-size: 24px;
+    color: rgb(13, 19, 33);
+}
+.skill-text-title-description{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+.skill-link{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    margin: 24px 0px;
+}
+.skill-bg-html{
+    background: rgba(255, 76, 30, 0.05);
+}
+.skill-bg-css{
+    background: rgba(0, 76, 232, 0.05);
+}
+.skill-bg-javascript{
+    background: rgba(255, 223, 0, 0.05);
+}
 
 header{
     background-image: url(../assets/Hero-bg.png);
@@ -137,4 +168,24 @@ header{
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
     padding: 32px;
+}
+.set-goal-title-dis{
+    text-align: center;
+    margin: 151px 247px 0px 247px;
+}
+.set-goal-title{
+    font-weight: bolder;
+    font-size: 32px;
+    color: #0D1321;
+}
+.set-goal-dis{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+}
+.set-skill-goal{
+    display: flex;
+    justify-content: center;
+    margin: 48px 150px 0px 150px;
 }
