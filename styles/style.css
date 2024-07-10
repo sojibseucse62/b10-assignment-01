@@ -23,6 +23,7 @@
     text-align: left;
     opacity: 0.7;
 }
+
 header{
     background-image: url(../assets/Hero-bg.png);
     background-size: cover;
@@ -112,4 +113,28 @@ header{
     border-radius: 16px;
     background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
     margin: 48px 97px 0px 97px;
+}
+
+.inspiration{
+    text-align: center;
+    margin: 0px 296px 0px 296px;
+}
+.inspiration-title{
+    font-weight: bolder;
+    font-size: 32px;
+    margin-top: 90px;
+    color: rgb(13, 19, 33)s;
+}
+.inspiration-description{
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 0.7;
+}
+.video{
+    margin: 48px 152px 0px 152px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 32px;
 }
