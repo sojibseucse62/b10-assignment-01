@@ -2,6 +2,27 @@
 *{
     font-family: Azeret Mono;
 }
+/* shared styles */
+.about-information-btn{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 20px 12px 20px;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+}
+.about-information-title{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+}
+.about-information-title-description{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    opacity: 0.7;
+}
 header{
     background-image: url(../assets/Hero-bg.png);
     background-size: cover;
@@ -36,4 +57,59 @@ header{
     padding: 21px 24px 21px 24px;
     border-radius: 8px;
     margin-bottom: 45px;
+}
+
+.about-webdev{
+    margin: 74px 148px 0px 148px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+.about-webdev-header{
+    text-align: center;
+    color: #0D1321;
+}
+.about-webdev-title{
+    font-weight: bolder;
+    font-size: 32px;
+    padding-top: 80px;
+}
+.about-webdev-description{
+    padding: 24px 144px 0px 144px;
+    opacity: 0.7;
+}
+.about-information{
+    padding-bottom: 80px;
+}
+.fig-01-description{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 48px;
+}
+.fig-01-bg{
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    margin: 48px 97px 0px 97px;
+}
+.fig-02-description{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 48px;
+}
+.fig-02-bg{
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    margin: 48px 97px 0px 97px;
+}
+.fig-03-description{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 48px;
+}
+.fig-03-bg{
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    margin: 48px 97px 0px 97px;
 }
