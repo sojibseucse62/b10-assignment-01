@@ -90,6 +90,10 @@ header{
     border-radius: 8px;
     margin-bottom: 45px;
 }
+.contact-btn-design{
+    color: white;
+    text-decoration: none;
+}
 
 .about-webdev{
     margin: 74px 148px 0px 148px;
@@ -169,6 +173,9 @@ header{
     border-radius: 16px;
     padding: 32px;
 }
+iframe{
+    border-radius: 20px;
+}
 .set-goal-title-dis{
     text-align: center;
     margin: 151px 247px 0px 247px;
@@ -188,4 +195,61 @@ header{
     display: flex;
     justify-content: center;
     margin: 48px 150px 0px 150px;
+}
+.feedback-form{
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    background-image: url('../assets/handshake.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin: 50px 155px 0px 155px;
+    border-radius: 10px;
+    padding-bottom: 40px;
+}
+.feedback-form-content{
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    max-width: 600px;
+    width: 100%;
+}
+.feedback-form-title{
+    font-size: 32px;
+    font-weight: bold;
+}
+.feedback-form-description{
+    opacity: 0.7;
+    margin-bottom: 30px;
+}
+.feedback-form-section{
+    display: flex;
+    justify-content: center;
+}
+.feedback-form-input{
+    width: 70%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+}
+.feedback-form-btn{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    color: black;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    margin-top: 80px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
